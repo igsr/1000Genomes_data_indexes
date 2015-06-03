@@ -62,7 +62,7 @@ The columns in the file are
  
 ##Download instructions
 
-Full instructions can be found on [http://www.ebi.ac.uk/ena/browse/read-download]()http://www.ebi.ac.uk/ena/browse/read-download)
+Full instructions can be found on [http://www.ebi.ac.uk/ena/browse/read-download](http://www.ebi.ac.uk/ena/browse/read-download)
 
 The URLS in the index files point to the ENA FTP site. The files can also be downloaded with aspera and globusgridftp
 
