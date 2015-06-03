@@ -1,6 +1,6 @@
 #SV discovery index files
 
-This directory contains index files relating to the 1000 Genomes SV discovery project. These index files point to the data stored in the European Nucleotide Archive (ENA)
+The [sv_discovery_index directory of the 1000Genomes_data_indexes repo](https://github.com/igsr/1000Genomes_data_indexes/tree/master/sv_discovery_indexes) contains index files relating to the 1000 Genomes SV discovery project. These index files point to the data stored in the European Nucleotide Archive (ENA)
 
 [smrt.sequence.index](#smrt.sequence.index)  
 [illumina_wgs.sequence.index](#illumina_wgs.sequence.index)  
