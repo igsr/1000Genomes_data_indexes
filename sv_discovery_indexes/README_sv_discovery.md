@@ -135,4 +135,4 @@ studies, and the Project should not be listed as an author.
 Researchers who have questions about whether they may make presentations or submit papers using Project 
 data, or whether to include the 1000 Genomes SV group as an author on any paper can contact us.
 
-Please email info@1000genomes.org to enquire.
+Please email info@1000genomes.org to with any questions about either the index files or the data reuse policy
