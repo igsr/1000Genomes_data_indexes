@@ -5,6 +5,7 @@ The [sv_discovery_index directory of the 1000Genomes_data_indexes repo](https://
 [smrt.sequence.index](#smrt.sequence.index)  
 [illumina_wgs.sequence.index](#illumina_wgs.sequence.index)  
 [Download instructions](#Download instructions)  
+[Reference Datasets](#Reference Datasets)
 [Data Reuse Policy](#Data Reuse policy)    
 
 ##smrt.sequence.index
@@ -76,11 +77,13 @@ In linux it is found under the aspera connect install directory .aspera/connect/
 
 The ENA globus endpoint is ebi#ena
 
+##Reference datasets
+
+The consortium has decided to align to the full GRCh38 reference genome include alts, decoy and HLA sequence. A full description of the reference data can be found in [README_sv_reference_datasets](https://github.com/igsr/1000Genomes_data_indexes/blob/master/sv_discovery_indexes/README_sv_reference_datasets.md)
+
 ##Data Reuse policy
 
-This directory contains all the data associated with the 1000 Genomes SV group NHGRI funded
-project to create a high quality catalog of structural variation using various sequencing
-approaches.
+This README refers all the data associated with Human Genome Structural Variation Consortium to create a high quality catalog of structural variation using various sequencing approaches.
 
 All data in this directory is part of that project.
 
