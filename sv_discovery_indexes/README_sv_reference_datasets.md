@@ -2,18 +2,18 @@
 
 The Human Genome Structural Variation Consortium is generating data on three trios from the 1000 Genomes sample set.
 
-*Yoruban Trio (YRI)
-**NA19238
-**NA19239
-**NA19240
-*Han Chinese Trio (CHS)
-**HG00512
-**HG00513
-**HG00514
-*Puerto Rican Trio (PUR)
-**HG00731
-**HG00732
-**HG00733
+-Yoruban Trio (YRI)  
+--NA19238  
+--NA19239  
+--NA19240  
+-Han Chinese Trio (CHS)  
+--HG00512  
+--HG00513  
+--HG00514  
+-Puerto Rican Trio (PUR)  
+--HG00731  
+--HG00732  
+--HG00733  
 
 This readme points to the standard reference datasets used for our analysis.
 
