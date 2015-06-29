@@ -5,7 +5,7 @@ The [sv_discovery_index directory of the 1000Genomes_data_indexes repo](https://
 [smrt.sequence.index](#smrt.sequence.index)  
 [illumina_wgs.sequence.index](#illumina_wgs.sequence.index)  
 [Download instructions](#Download instructions)  
-[Reference Datasets](#Reference Datasets)
+[Reference Datasets](#Reference Datasets)  
 [Data Reuse Policy](#Data Reuse policy)    
 
 ##smrt.sequence.index
