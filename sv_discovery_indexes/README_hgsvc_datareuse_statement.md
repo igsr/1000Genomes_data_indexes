@@ -17,10 +17,10 @@ The Project plans to publish global analyses of the sequence data and quality, s
 STRs and microsatellites and haplotypes and LD patterns, population genetic phenomena such as 
 population comparisons, mutation rates, and signals of selection, and functional annotations, 
 as well as analyses of regions of general interest such as HLA. Talks, posters, and papers on 
-all such analyses are to be published first by the 1000 Genomes SV group, by approved presenters
-on behalf of the Project, with the group as author. When the first major Project paper on these 
-analyses is published, then researchers inside and outside the Project are free to present and 
-publish using the Project data for these and other analyses.
+all such analyses are to be published first by the Human Genome Structural Variation Consortium, 
+by approved presenters on behalf of the Project, with the group as author. When the first major 
+Project paper on these analyses is published, then researchers inside and outside the Project are 
+free to present and publish using the Project data for these and other analyses.
 
 ###Large-scale analyses of Project data
 
@@ -32,11 +32,11 @@ of methods and results. The author list would include the Consortium.
 
 ###Methods development using Project data
 
-Researchers who have used small amounts of Project data (<= one chromosome in a region not of general interest) 
-may present methods development posters, talks, and papers that include these data prior to the first major 
-Project paper, without needing Project approval or authorship, although the Project should be acknowledged. 
-Methods presentations or papers on global analyses or analyses using large amounts of Project data, on 
-topics that the Consortium plans to examine, would be similar to large-scale analyses of Project data: 
+Researchers who have used small amounts of Project data (<=one chromosome or chromosomal regions not of
+general interest) may present methods development posters, talks, and papers that include these data prior to 
+the first major Project paper, without needing Project approval or authorship, although the Project should be 
+acknowledged. Methods presentations or papers on global analyses or analyses using large amounts of Project 
+data, on topics that the Consortium plans to examine, would be similar to large-scale analyses of Project data: 
 researchers within the Project may make presentations or submit papers at the same time as the main 
 Project presentations and papers, and others could do so after the Project publishes the first major analysis paper.
 
@@ -54,6 +54,6 @@ published, as long as the analyses that the Project plans to do are not included
 studies, and the Project should not be listed as an author.
 
 Researchers who have questions about whether they may make presentations or submit papers using Project 
-data, or whether to include the 1000 Genomes SV group as an author on any paper can contact us.
+data on any paper can contact us.
 
 Please email info@1000genomes.org to with any questions about either the index files or the data reuse policy
