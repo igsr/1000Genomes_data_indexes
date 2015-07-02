@@ -2,11 +2,7 @@
 
 The [sv_discovery_index directory of the 1000Genomes_data_indexes repo](https://github.com/igsr/1000Genomes_data_indexes/tree/master/sv_discovery_indexes) contains index files relating to the Human Genome Structural Variation Consortium. These index files point to the data stored in the European Nucleotide Archive (ENA)
 
-[smrt.sequence.index](#smrt.sequence.index)  
-[illumina_wgs.sequence.index](#illumina_wgs.sequence.index)  
-[Download instructions](#Download instructions)  
-[Reference Datasets](#Reference Datasets)  
-[Data Reuse Policy](#Data Reuse policy)    
+Our README files are all written in markdown format, if the formatting makes these files difficult to read please email info@1000genomes.org and improve the files.
 
 ##smrt.sequence.index
 
