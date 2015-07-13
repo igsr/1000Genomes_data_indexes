@@ -23,6 +23,6 @@ The reference genome, GRCh38.
 
 This directory contains the fasta file for the Primary GRCh38 assembly plus alt haplotypes and decoy sequence, all of which are accessioned by Genbank and hla sequence which was sourced by Heng Li. The HLA sequence is sourced from the [bwakit package](https://github.com/lh3/bwa/tree/master/bwakit) which uses the [IMGT/HLA database v3.18.0](https://www.ebi.ac.uk/ipd/imgt/hla/docs/version_r3180.html)
 
-This directory also contains GRCh38 mapped snps and indels for use in recalibration and indel realignment.
+This directory also contains GRCh38 mapped snps and indels for use in recalibration and indel realignment, and a file with the positions for the modelled centromeric sequence, chr Y PAR and chr 7 heterochromatin
 
 If you have any questions about this readme please email igsr-dcc@ebi.ac.uk
