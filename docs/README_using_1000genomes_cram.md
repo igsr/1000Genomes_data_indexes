@@ -10,7 +10,20 @@ The command used to produce our CRAM files is
 
 CRAM files can be read natively by [samtools](https://github.com/samtools/samtools) and any other code based on [htslib](https://github.com/samtools/htslib). EMBL-EBI also provides a java toolkit - [cramtools](http://www.ebi.ac.uk/ena/software/cram-toolkit)
 
-CRAM files don't contain the same level of sequence data as BAM files. CRAM files rely on the [cram reference registry](http://www.ebi.ac.uk/ena/software/cram-reference-registry) to provide the sequence data for its output. Depending on what CRAM reading tool you are using, there are different options for getting a local copy of the particular reference a cram file uses and pointing the tools to it.
+CRAM files don't contain the same level of sequence data as BAM files. CRAM files rely on the [cram reference registry](http://www.ebi.ac.uk/ena/software/cram-reference-registry) to provide the sequence data for its output.
+
+The first time a CRAM file is read, the sequence data must be retrieved from the reference registry and stored locally. 
+
+You can expedite this by creating a copy of the reference cache. (Samtools provided a method to do this)[http://www.htslib.org/workflow/#mapping_to_cram].
+
+Download our (reference fasta file)[ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/technical/reference/GRCh38_reference_genome/GRCh38_full_analysis_set_plus_decoy_hla.fa] 
+
+Run (samtools/misc/seq_cache_populate.pl)[https://github.com/samtools/samtools/blob/develop/misc/seq_cache_populate.pl] -root /path/to/cache GRCh38_full_analysis_set_plus_decoy_hla.fa
+
+Then set these two environment variables
+
+export REF_PATH=/path/to/cache/%2s/%2s/%s:http://www.ebi.ac.uk/ena/cram/md5/%s
+export REF_CACHE=/path/to/cache/%2s/%2s/%s
 
 
 
