@@ -22,5 +22,5 @@ Run [samtools/misc/seq_cache_populate.pl](https://github.com/samtools/samtools/b
 
 Then set these two environment variables
 
-export REF_PATH=/path/to/cache/%2s/%2s/%s:http://www.ebi.ac.uk/ena/cram/md5/%s
+export REF_PATH=/path/to/cache/%2s/%2s/%s:http://www.ebi.ac.uk/ena/cram/md5/%s  
 export REF_CACHE=/path/to/cache/%2s/%2s/%s
