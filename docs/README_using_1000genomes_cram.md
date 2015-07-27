@@ -24,3 +24,5 @@ Then set these two environment variables
 
 export REF_PATH=/path/to/cache/%2s/%2s/%s:http://www.ebi.ac.uk/ena/cram/md5/%s  
 export REF_CACHE=/path/to/cache/%2s/%2s/%s
+
+This process will work with both samtools and cramtools.
