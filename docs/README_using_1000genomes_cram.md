@@ -4,9 +4,39 @@ From the first release of GRCh38 alignments onwards, we are releasing our alignm
 
 As htslib and picard can read CRAM files natively now most standard tools should be able to read these files natively. 
 
-Here are details how to convert from cram to bam, how we produced the cram files and the CRAM specification.
+Here are details about how to view cram files, convert from cram to bam, how we produced the cram files and the CRAM specification.
 
 1. Using CRAM files
+
+CRAM Files can be read by both samtools and picard. EMBL-EBI also provides a java called cramtools (http://www.ebi.ac.uk/ena/software/cram-toolkit)
+
+- Reading a CRAM file with samtools - standard samtools view commands work with CRAM files. You must be using samtools v1.2 or higher for this to work
+
+`>samtools view $input.cram -h chr22:1000000-1500000 | less`
+
+- Converting a CRAM file to a BAM File - some tools still need BAM files rather than CRAM you can convert from CRAM to BAM easily
+
+`>java -jar cramtools-3.0.jar bam  -I $input.cram -R $reference.fa -O $output.bam`
+
+Please note the first time you run these commands the program reading the CRAM file must download the reference sequence data
+
+2. The CRAM reference registry
+
+Because CRAM does not contain the same level of sequence data as BAM files, it relies on the CRAM reference registry to provide reference sequences for CRAM to output uncompressed sequences.  The reference must be available at all times. Losing it may be equivalent to losing all your read sequences. Retrieval of reference data from the registry is supported by using MD5 or SHA1 checksums using the following URLs:
+
+`www.ebi.ac.uk/ena/cram/md5/<hashvalue>`
+`www.ebi.ac.uk/ena/cram/sha1/<hashvalue>`
+
+The md5 values for all GRCh38 reference chromosomes and contigs are included in CRAM file headers. These are mandatory fields in the CRAM specification.  
+
+When first loading data from our CRAM files, both cramtools and htslib will download sequence from the cache. You can speed up the initial retrieval by preparing the cache in advance.
+
+1. Download the reference file from our FTP site. ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/technical/reference/GRCh38_reference_genome/GRCh38_full_analysis_set_plus_decoy_hla.fa
+2. Run the seq_cache_populate.pl script from samtools - http://www.htslib.org/workflow/#mapping_to_cram  
+`>perl samtools/misc/seq_cache_populate.pl -root /path/to/cache /path/to/GRCh38_full_analysis_set_plus_decoy_hla.fa`
+3. Set the cache environment variables 
+`>export REF_PATH=/path/to/cache/%2s/%2s/%s:http://www.ebi.ac.uk/ena/cram/md5/%s`
+`>export REF_CACHE=/path/to/cache/%2s/%2s/%s`
 
 1. What is CRAM format
 
