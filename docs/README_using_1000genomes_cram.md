@@ -6,7 +6,7 @@ Both htslib and picard can read CRAM files, many standard tools should be able t
 
 Here are details about how to view cram files, convert from cram to bam, how we produced the cram files and the CRAM specification.
 
-1. Using CRAM files
+##Using CRAM files
 
 CRAM Files can be read by both samtools and picard. EMBL-EBI also provides a java called cramtools (http://www.ebi.ac.uk/ena/software/cram-toolkit)
 
@@ -20,7 +20,7 @@ CRAM Files can be read by both samtools and picard. EMBL-EBI also provides a jav
 
 Please note the first time you run these commands the program reading the CRAM file must download the reference sequence data first. This process can be speeded up if you download the required reference file in advance. This process is described in the CRAM reference registry section.
 
-2. The CRAM reference registry
+##The CRAM reference registry
 
 Because CRAM does not contain the same level of sequence data as BAM files, it relies on the CRAM reference registry to provide reference sequences for CRAM to output uncompressed sequences.  The reference must be available at all times. Losing it may be equivalent to losing all your read sequences. Retrieval of reference data from the registry is supported by using MD5 or SHA1 checksums using the following URLs:
 
@@ -38,13 +38,13 @@ The following process can be used to download and prepare the cache in advance t
 `>export REF_PATH=/path/to/cache/%2s/%2s/%s:http://www.ebi.ac.uk/ena/cram/md5/%s`
 `>export REF_CACHE=/path/to/cache/%2s/%2s/%s`
 
-3.  How did we compress the BAMs to CRAMs
+##How did we compress the BAMs to CRAMs
 
 We use cramtools to convert the BAM files our alignment pipeline produces to CRAM Files. The files are compressed using a lossy mode, this bins all quality stores into the 8-binning scheme defined by Illumina.
 
 `>java -jar cramtools-3.0.jar cram --ignore-tags OQ:CQ:BQ --capture-all-tags --lossy-quality-score-spec '*8' --preserve-read-names -O $output.cram -R GRCh38_full_analysis_set_plus_decoy_hla.fa -I $input.bam`
 
-4. What is CRAM format
+##More information about CRAM format.
 
 As mentioned above CRAM represents a reference-based compression of sequence data. After aligning sequences reads to a reference genome, rather than storing every base pair of a sequence read, the approach stores only the difference between the read and the reference, hence reducing the space needed for storing sequence reads.  Additional compression can be archived in lossy mode by controlled loss of quality information and unaligned reads, by dropping read names and other information. The level of compression can be fine tuned based on users' experiment design. With associated tools, the compressed data can be seamlessly uncompressed and fed into downstream analysis.
 
