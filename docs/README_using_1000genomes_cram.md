@@ -1,6 +1,6 @@
 #IGSR CRAM Tutorial
 
-From the first release of GRCh38 alignments onwards, we are releasing our alignment files in CRAM format. CRAM is a reference based compression tool which reduces the size of alignment files.
+From the first release of GRCh38 alignments onwards, we are releasing our alignment files in CRAM format. CRAM is a reference-based compression of sequence data. 
 
 Both htslib and picard can read CRAM files, many standard tools should be able to read these files natively. 
 
