@@ -8,7 +8,7 @@ The structure of this repo should reflect the directory structure of the FTP sit
 
 Currently we have the following data collections
 
-hgsv_sv_discovery - This represents the ongoing work from the 1000 Genomes Structural Variation group who aim to produce high quality SV catalogues for three trios of individuals
+hgsv_sv_discovery - This represents the ongoing work from the 1000 Genomes Structural Variation group who aim to produce high quality SV catalogues for three trios of individuals  
 simons_diversity_data - This represents the data from the [Simons's Diversity Project](https://www.simonsfoundation.org/life-sciences/simons-genome-diversity-project-dataset/)
 
 For any questions about this repo please either open an issue or email info@1000genomes.org
