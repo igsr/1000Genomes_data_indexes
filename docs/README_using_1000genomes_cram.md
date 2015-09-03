@@ -4,25 +4,25 @@ From the first release of GRCh38 alignments onwards, we are releasing our alignm
 
 Both htslib and picard can read CRAM files, many standard tools should be able to read these files natively. 
 
-Here are details about how to view cram files, convert from cram to bam, how we produced the cram files and the CRAM specification.
+Here are details about how to view CRAM files, convert from CRAM to BAM, how we produced the cram files and the CRAM specification.
 
 ##Using CRAM files
 
 CRAM Files can be read by both samtools and picard. EMBL-EBI also provides a java called cramtools (http://www.ebi.ac.uk/ena/software/cram-toolkit)
 
-- Reading a CRAM file with samtools - standard samtools view commands work with CRAM files. You must be using samtools v1.2 or higher for this to work
+- Reading a CRAM file with samtools - samtools view commands work with CRAM files. This functionality needs samtools v1.2 or higher
 
 `>samtools view $input.cram -h chr22:1000000-1500000 | less`
 
-- Converting a CRAM file to a BAM File - some tools still need BAM files rather than CRAM you can convert from CRAM to BAM easily
+- Converting a CRAM file to a BAM File - some tools still need BAM files rather than CRAM. You can convert from CRAM to BAM easily
 
 `>java -jar cramtools-3.0.jar bam  -I $input.cram -R $reference.fa -O $output.bam`
 
-Please note the first time you run these commands the program reading the CRAM file must download the reference sequence data first. This process can be speeded up if you download the required reference file in advance. This process is described in the CRAM reference registry section.
+Please note the first time you run these commands the program reading the CRAM file must download the reference sequence data from an online cache. This process can be speeded up if you download the required reference file and build a local copy of the cache in advance. This process is described below in the CRAM reference registry section.
 
 ##The CRAM reference registry
 
-Because CRAM does not contain the same level of sequence data as BAM files, it relies on the CRAM reference registry to provide reference sequences for CRAM to output uncompressed sequences.  The reference must be available at all times. Losing it may be equivalent to losing all your read sequences. Retrieval of reference data from the registry is supported by using MD5 or SHA1 checksums using the following URLs:
+Because CRAM does not contain the same level of sequence data as BAM files, it relies on the CRAM reference registry to provide reference sequences for CRAM to output uncompressed sequences.  The reference must be available at all times. Losing it is equivalent to losing all your read sequences. Retrieval of reference data from the registry is supported by using MD5 or SHA1 checksums using the following URLs:
 
 `www.ebi.ac.uk/ena/cram/md5/<hashvalue>`
 `www.ebi.ac.uk/ena/cram/sha1/<hashvalue>`
