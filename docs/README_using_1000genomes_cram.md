@@ -8,7 +8,7 @@ Here are details about how to view CRAM files, convert from CRAM to BAM, how we 
 
 ##Using CRAM files
 
-CRAM Files can be read by both samtools and picard. EMBL-EBI also provides a java called cramtools (http://www.ebi.ac.uk/ena/software/cram-toolkit)
+CRAM Files can be read by both samtools and picard. EMBL-EBI also provides a java API called cramtools (http://www.ebi.ac.uk/ena/software/cram-toolkit)
 
 - Reading a CRAM file with samtools - samtools view commands work with CRAM files. This functionality needs samtools v1.2 or higher
 
