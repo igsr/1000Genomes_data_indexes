@@ -1,8 +1,8 @@
 #IGSR CRAM Tutorial
 
-From the first release of GRCh38 alignments onwards, we are releasing our alignment files in cram format.  
+From the first release of GRCh38 alignments onwards, we are releasing our alignment files in CRAM format. CRAM is a reference based compression tool which reduces the size of alignment files.
 
-As htslib and picard can read CRAM files, many standard tools should be able to read these files natively. 
+Both htslib and picard can read CRAM files, many standard tools should be able to read these files natively. 
 
 Here are details about how to view cram files, convert from cram to bam, how we produced the cram files and the CRAM specification.
 
@@ -46,7 +46,7 @@ We use cramtools to convert the BAM files our alignment pipeline produces to CRA
 
 4. What is CRAM format
 
-CRAM is a reference-based compression of sequence data. After aligning sequences reads to a reference genome, rather than storing every base pair of a sequence read, the approach stores only the difference between the read and the reference, hence reducing the space needed for storing sequence reads.  Additional compression can be archived in lossy mode by controlled loss of quality information and unaligned reads, by dropping read names and other information. The level of compression can be fine tuned based on users' experiment design. With associated tools, the compressed data can be seamlessly uncompressed and fed into downstream analysis.
+As mentioned above CRAM represents a reference-based compression of sequence data. After aligning sequences reads to a reference genome, rather than storing every base pair of a sequence read, the approach stores only the difference between the read and the reference, hence reducing the space needed for storing sequence reads.  Additional compression can be archived in lossy mode by controlled loss of quality information and unaligned reads, by dropping read names and other information. The level of compression can be fine tuned based on users' experiment design. With associated tools, the compressed data can be seamlessly uncompressed and fed into downstream analysis.
 
 This compression method was first developed by Ewan Birney's group in European Bioinformatics Institute (EBI) (Hsi-Yang Fritz, et al. (2011). Genome Res. 21:734-740).  The specification itself is maintained by the HTSlib group alongside the BAM, VCF and BCF specifications http://samtools.github.io/hts-specs/CRAMv3.pdf.
 
