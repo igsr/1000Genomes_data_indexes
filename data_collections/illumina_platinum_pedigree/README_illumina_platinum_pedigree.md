@@ -5,8 +5,8 @@ This README contains information relating to data associated with the Illumina P
 Information about the Platinum pedigree data is available from Illumina at this location:
 [http://www.illumina.com/platinumgenomes/](http://www.illumina.com/platinumgenomes/)
 
-Illumina states that:
->"If you have any questions, contact us at: platinumgenomes@illumina.com. Please note that while Platinum Genomes are >freely available, Illumina does not offer technical support for these resources. Please cite this website and >Illumina, Inc. in publications and other public usage of Platinum Genomes."
+Illumina states:
+>"If you have any questions, contact us at: platinumgenomes@illumina.com. Please note that while Platinum Genomes are freely available, Illumina does not offer technical support for these resources. Please cite this website and Illumina, Inc. in publications and other public usage of Platinum Genomes."
 
 The pedigree sequnce data is for the 17 member CEPH pedigree 1463 and includes a technical replicate of NA12882. The technical replicate is labelled as NA12882_2.
 
