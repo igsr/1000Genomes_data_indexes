@@ -6,7 +6,7 @@ Users should be aware that constraints may vary from project to project, by data
 
 Data from the 1000 Genomes Project is freely available without embargo, following the final publication from the project. Use of the data should be cited in the usual way.
 
-SV group.
+Data from the Human Genome Structural Variation Consortium (HGSVC) continues the philosophy of the 1000 Genomes Project, making data available prior to publication in line with Fort Lauderdale principles, allowing others to use the data but allowing the data producers to make the first presentations and to publish the first paper with global analyses of the data. For further details, users should see the document accompanying the data.
 
 Where the data use and access policy of a project has been made known to IGSR, information on that policy will be provided by IGSR with the data, however, IGSR can take no responsibility for the information being either current or accurate.
 
