@@ -71,7 +71,6 @@ This reference genome contains both a primary assembly and alternative sequences
 
 The alignment files created by this approach are listed in the index file: ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/data_collections/illumina_platinum_pedigree/illumina_platinum_ped.GRCh38DH.alignment.index
 
-The alignments have been made available in CRAM format. Additional information on CRAM can be found in a dedicated README at the toplevel of this site. Further information is available at these locations:
-- [http://www.1000genomes.org/faq/what-are-cram-files](http://www.1000genomes.org/faq/what-are-cram-files)
-- [http://www.ebi.ac.uk/ena/software/cram-toolkit](http://www.ebi.ac.uk/ena/software/cram-toolkit)
-- [http://www.ebi.ac.uk/ena/software/cram-usage](http://www.ebi.ac.uk/ena/software/cram-usage)
+The alignments are located beneath this directory, under data. There, the files are origanised by population and then sample. The replicates for NA12882 are both located in the same sample directory. In each sample directory, an alignment directory contains the files.
+
+The alignments have been made available in CRAM format. Additional information on CRAM can be found in a dedicated [README](ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/README_using_1000genomes_cram.md) at the toplevel of this site. For each data set a .cram file, .crai index and .bas file is provided.
