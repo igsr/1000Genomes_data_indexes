@@ -4,7 +4,7 @@ IGSR provides access to a variety of data from many projects. No restrictions on
 
 Users should be aware that constraints may vary from project to project, by data type within a project or in any other way. It is the sole responsibility of the user to establish the nature of and comply with any restrictions placed on specific items of data within IGSR.
 
-Data from the 1000 Genomes Project is freely available without embargo, following the final publication from the project. Use of the data should be cited in the usual way.
+Data from the 1000 Genomes Project is freely available without embargo, following the final publication from the project. Use of the data should be cited in the usual way, with current details available at  [http://www.1000genomes.org/faq/how-do-i-cite-1000-genomes-project](http://www.1000genomes.org/faq/how-do-i-cite-1000-genomes-project).
 
 Data from the Human Genome Structural Variation Consortium (HGSVC) continues the philosophy of the 1000 Genomes Project, making data available prior to publication in line with Fort Lauderdale principles, allowing others to use the data but allowing the data producers to make the first presentations and to publish the first paper with global analyses of the data. For further details, users should see the document accompanying the data.
 
