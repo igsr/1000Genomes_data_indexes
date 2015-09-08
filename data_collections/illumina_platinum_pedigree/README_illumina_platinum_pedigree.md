@@ -15,6 +15,7 @@ Additional description can be found in the [ENA entry for this project](http://w
 
 ###Alignment of the pedigree data to the reference genome
 
+####Programs and reference data
 The Illumina Platinum pedigree data was aligned to the reference genome using the following programs and reference datasets:
 
 1. [BWA-MEM](https://github.com/lh3/bwa/blob/master/bwakit/README.md) [bwakit-0.7.12](http://sourceforge.net/projects/bio-bwa/files/bwakit/bwakit-0.7.12_x64-linux.tar.bz2/download)
@@ -27,6 +28,8 @@ The Illumina Platinum pedigree data was aligned to the reference genome using th
    - High quality, experiment-validated indel set Devine and Mills produced. The coordinates were lifted to GRCh38 by Alison Meynert from IGMM in Edinburgh using CrossMap and the UCSC chain files, filtered out ref == alt cases ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/technical/reference/GRCh38_reference_genome/other_mapping_resources/Mills_and_1000G_gold_standard.indels.b38.primary_assembly.vcf.gz
 7. SNPs for recalibration 
    - dbSNP 142 in GRCh38 coordinates ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/technical/reference/GRCh38_reference_genome/other_mapping_resources/ALL_20141222.dbSNP142_human_GRCh38.snps.vcf.gz
+
+####Reference genome: GRCh38 with alternative sequences, plus decoys and HLA
 
 ###Alignment availability
 
