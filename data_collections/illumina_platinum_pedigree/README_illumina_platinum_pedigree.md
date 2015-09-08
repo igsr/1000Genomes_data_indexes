@@ -67,6 +67,8 @@ The HLA sequence in the file came from Heng Li's [bwakit distribution](http://so
 
 ###Alignment availability
 
+The alignment files created by this approach are listed in the index file ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/data_collections/illumina_platinum_pedigree/illumina_platinum_ped.GRCh38DH.alignment.index
+
 The alignments have been made available in CRAM format. Additional information on CRAM can be found in a dedicated README at the toplevel of this site. Further information is available at these locations:
 - [http://www.1000genomes.org/faq/what-are-cram-files](http://www.1000genomes.org/faq/what-are-cram-files)
 - [http://www.ebi.ac.uk/ena/software/cram-toolkit](http://www.ebi.ac.uk/ena/software/cram-toolkit)
