@@ -37,6 +37,34 @@ This was sourced from: ftp://ftp.ncbi.nlm.nih.gov/genbank/genomes/Eukaryotes/ver
 
 The HLA sequence in the file came from Heng Li's [bwakit distribution](http://sourceforge.net/projects/bio-bwa/files/bwakit/bwakit-0.7.12_x64-linux.tar.bz2/download)
 
+####Command lines
+1. Run level alignment
+
+          bwa mem  -t 1 -B 4 -O 6 -E 1 -M -R $rg_string $reference_fasta_file $fastq_file(1) $fastq_file(2) | k8 bwa-postalt.js -p  $prefix_hla_hit $reference_fasta_file.alt | samtools view -1 - > $bam_file
+
+2. Local realignment around known indels by GATK
+
+          java $jvm_args -jar GenomeAnalysisTK.jar -T IndelRealigner -R $reference_fasta -I $bam_file -o $realigned_bam_file -targetIntervals $intervals_file -known $known_indels_file(s) -LOD 0.4 -model KNOWNS_ONLY -compress 0 --disable_bam_indexing
+
+3. Recalibrate base quality scores using known SNPs by GATK
+
+          java $jvm_args -jar GenomeAnalysisTK.jar -T BaseRecalibrator -nt 1 -l INFO -cov ReadGroupCovariate -cov QualityScoreCovariate -cov CycleCovariate -cov ContextCovariate -R $reference_fasta -o $recal_data.table -I $bam_file -knownSites $known_snps_from_dbSNP142
+          java $jvm_args -jar GenomeAnalysisTK.jar -T PrintReads -l INFO -R $reference_fasta -o $recalibrated_bam -I $bam_file -BQSR $recal_data.table --disable_bam_indexing
+
+4. Mark Duplicates using BioBamBam
+
+          bammarkduplicates I=$input_bam O=$output_bam index=1 rmdup=0
+
+5. Mergeing Library level bam files to Sample level bam files using BioBamBam
+
+          bammerge I=$input_bam1 I=$input_bam2 ...... index=1 indexfilename=$output_index_file_name SO=coordinate > $merged_bam
+
+6. Creating lossless CRAM files using Cramtools
+
+          java cramtools-3.0.jar cram --input-bam-file $input_bam --output-cram-file $output_cram --capture-all-tags --ignore-tags OQ:CQ:BQ --preserve-read-names --lossy-quality-score-spec *8 --reference-fasta-file $reference_fasta
+
+
+
 ###Alignment availability
 
 The alignments have been made available in CRAM format. Additional information on CRAM can be found in a dedicated README at the toplevel of this site. Further information is available at these locations:
