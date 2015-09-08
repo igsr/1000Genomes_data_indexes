@@ -35,7 +35,9 @@ The reference genome that the data was aligned to is in this file: ftp://ftp.100
 
 This was sourced from: ftp://ftp.ncbi.nlm.nih.gov/genbank/genomes/Eukaryotes/vertebrates_mammals/Homo_sapiens/GRCh38/seqs_for_alignment_pipelines/GCA_000001405.15_GRCh38_full_plus_hs38d1_analysis_set.fna
 
-The HLA sequence in the file came from Heng Li's [bwakit distribution](http://sourceforge.net/projects/bio-bwa/files/bwakit/bwakit-0.7.12_x64-linux.tar.bz2/download). Further information on using BWA for alternative sequence aware aligning is available from [BWA](https://github.com/lh3/bwa/blob/master/README-alt.md).
+The HLA sequence in the file came from Heng Li's [bwakit distribution](http://sourceforge.net/projects/bio-bwa/files/bwakit/bwakit-0.7.12_x64-linux.tar.bz2/download). 
+
+This reference genome contains both a primary assembly and alternative sequences, produced by the [Genome Reference Consortium](http://www.ncbi.nlm.nih.gov/projects/genome/assembly/grc/human/), to which decoy and HLA sequences have been added. Further information regarding this is available from [BWA](https://github.com/lh3/bwa/blob/master/README-alt.md).
 
 ####Command lines
 1. Run level alignment
@@ -67,7 +69,7 @@ The HLA sequence in the file came from Heng Li's [bwakit distribution](http://so
 
 ###Alignment availability
 
-The alignment files created by this approach are listed in the index file ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/data_collections/illumina_platinum_pedigree/illumina_platinum_ped.GRCh38DH.alignment.index
+The alignment files created by this approach are listed in the index file: ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/data_collections/illumina_platinum_pedigree/illumina_platinum_ped.GRCh38DH.alignment.index
 
 The alignments have been made available in CRAM format. Additional information on CRAM can be found in a dedicated README at the toplevel of this site. Further information is available at these locations:
 - [http://www.1000genomes.org/faq/what-are-cram-files](http://www.1000genomes.org/faq/what-are-cram-files)
