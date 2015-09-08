@@ -2,16 +2,14 @@
 
 This README contains information relating to data associated with the Illumina Platinum pedigree data set, files for which are available under this directory.
 
-Information about the Platinum pedigree data is available from Illumina at this location:
-[http://www.illumina.com/platinumgenomes/](http://www.illumina.com/platinumgenomes/)
+Information about the Platinum pedigree data is available from [Illumina](http://www.illumina.com/platinumgenomes/).
 
 Illumina states:
 >"If you have any questions, contact us at: platinumgenomes@illumina.com. Please note that while Platinum Genomes are freely available, Illumina does not offer technical support for these resources. Please cite this website and Illumina, Inc. in publications and other public usage of Platinum Genomes."
 
 The pedigree sequence data was generated on the 17 member CEPH pedigree 1463 and includes a technical replicate of NA12882. The technical replicate is labelled as NA12882_2.
 
-Additional description can be found in the ENA entry for this project:
-[http://www.ebi.ac.uk/ena/data/view/ERP001960](http://www.ebi.ac.uk/ena/data/view/ERP001960)
+Additional description can be found in the [ENA entry for this project](http://www.ebi.ac.uk/ena/data/view/ERP001960).
 
 Under this directory, the alignment data can be found in [ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/data_collections/illumina_platinum_pedigree/data/CEU/](ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/data_collections/illumina_platinum_pedigree/data/CEU/) and is organised by sample name (with both replicates present in the NA12882 directory). 
 
