@@ -35,7 +35,7 @@ The reference genome that the data was aligned to is in this file: ftp://ftp.100
 
 This was sourced from: ftp://ftp.ncbi.nlm.nih.gov/genbank/genomes/Eukaryotes/vertebrates_mammals/Homo_sapiens/GRCh38/seqs_for_alignment_pipelines/GCA_000001405.15_GRCh38_full_plus_hs38d1_analysis_set.fna
 
-The HLA sequence in the file came from Heng Li's [bwakit distribution](http://sourceforge.net/projects/bio-bwa/files/bwakit/bwakit-0.7.12_x64-linux.tar.bz2/download)
+The HLA sequence in the file came from Heng Li's [bwakit distribution](http://sourceforge.net/projects/bio-bwa/files/bwakit/bwakit-0.7.12_x64-linux.tar.bz2/download). Further information on using BWA for alternative sequence aware aligning is available from [BWA](https://github.com/lh3/bwa/blob/master/README-alt.md).
 
 ####Command lines
 1. Run level alignment
