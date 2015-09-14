@@ -13,6 +13,8 @@ The pedigree sequence data was generated on the 17 member CEPH pedigree 1463 and
 
 Additional description can be found in the [ENA entry for this project](http://www.ebi.ac.uk/ena/data/view/ERP001960).
 
+The sequence data we sourced from the ENA is listed in the sequence index file
+
 ###Alignment of the pedigree data to the reference genome
 
 ####Programs and reference data
