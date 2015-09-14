@@ -40,7 +40,7 @@ The HLA sequence in the file came from Heng Li's [bwakit distribution](http://so
 This reference genome contains both a primary assembly and alternative sequences, produced by the [Genome Reference Consortium](http://www.ncbi.nlm.nih.gov/projects/genome/assembly/grc/human/), to which decoy and HLA sequences have been added. Further information regarding this is available from [BWA](https://github.com/lh3/bwa/blob/master/README-alt.md).
 
 ####Command lines
-1. Run level alignment
+1. Alignment at run level
 
           bwa mem  -t 1 -B 4 -O 6 -E 1 -M -R $rg_string $reference_fasta_file $fastq_file(1) $fastq_file(2) | k8 bwa-postalt.js -p  $prefix_hla_hit $reference_fasta_file.alt | samtools view -1 - > $bam_file
 
