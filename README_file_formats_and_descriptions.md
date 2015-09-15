@@ -1,4 +1,4 @@
-#File formats
+#File formats and descriptions
 
 This file provides information on some of the file formats used to make data available on this site.
 
