@@ -1,0 +1,43 @@
+Category, old, new, diff
+Date, 20100513, 20100517, 20100601, 
+
+# Accessions, 12170, 12170, 0, 
+
+# Samples, 499, 499, 0, 
+
+# Samples greater than 4x, 396, 396, 0, 
+
+Population in Gb, 
+ASW,  645,  645, 0, 
+CEU, 2365, 2365, 0, 
+CHB, 1061, 1061, 0, 
+GBR,  141,  141, 0, 
+JPT, 1778, 1778, 0, 
+LWK,  660,  660, 0, 
+MXL,  210,  210, 0, 
+TSI, 1159, 1159, 0, 
+YRI, 1535, 1535, 0, 
+total, 9554, 9554, 0, 
+
+
+Platform in Gb, 
+ABI_SOLID, 1372, 1372, 0, 
+ILLUMINA, 7985, 7985, 0, 
+LS454,  197,  197, 0, 
+total, 9554, 9554, 0, 
+
+
+Center in Gb, 
+454MSC,   64,   64, 0, 
+ABI,  289,  289, 0, 
+BCM,  800,  800, 0, 
+BGI,  478,  478, 0, 
+BI, 3534, 3534, 0, 
+ILLUMINA,  105,  105, 0, 
+MPIMG,  523,  523, 0, 
+SC, 2791, 2791, 0, 
+UNKNOWN,  531,  531, 0, 
+WUGSC,  439,  439, 0, 
+total, 9554, 9554, 0, 
+
+
