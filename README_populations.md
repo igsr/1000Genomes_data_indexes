@@ -1,6 +1,6 @@
 #Populations
 
-This file describes the population codes which can be found in column 11 of the sequence index file and which are also used to organise samples in the data_collections' project data directories.
+This file describes the population codes which are used to organise samples in the data_collections' project data directories and can also be found in column 11 of the sequence index files.
 
 There are also two tsv files, which contain the population codes and descriptions for both the sub and super populations:
 
