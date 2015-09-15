@@ -1,4 +1,5 @@
-##fileDate=20150826
+##FileDate=20150826
+##Project=Illumina Platinum pedigree
 ##FASTQ_FILE=path to fastq file on ftp site
 ##MD5=md5sum of file
 ##RUN_ID=SRA/ERA run accession
