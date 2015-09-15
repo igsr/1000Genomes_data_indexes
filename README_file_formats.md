@@ -15,7 +15,7 @@ provide meta information about each readgroup.
 
 The remaining columns provide various statistics about the readgroup, calculated
 by going through the release bams. Where data isn't available to calculate the
-result for a column the default value will be 0.
+result for a column, the default value will be 0.
 
 Each column is described in detail below:
 
