@@ -1,0 +1,51 @@
+Information of the contents of pilot_data directory
+
+Files 						 Contents
+----------------------		--------------------------------------------------------------
+sequence.index			meta information of the three 1000Genomes Project Pilot study files
+			
+
+SRP000031.sequence.index	meta information of 1000Genomes Project Pilot 1 study files
+SRP000032.sequence.index	meta information of 1000Genomes Project Pilot 2 study files	
+SRP000033.sequence.index	meta information of 1000Genomes Project Pilot 3 study files
+
+(See ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/README.sequence.index for fuller description
+sequence.index file contents and format.)
+	
+
+alignment.index			meta information of all bam and bai files in /data directory
+
+(See ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/README.alignment.index for fuller description
+alignment.index file contents and format.)
+
+
+
+Directory      					 Contents
+----------------------		--------------------------------------------------------------
+data     			contains a subdirectory per individual of the project. Each
+				individual directory contains series of subdirectories for different
+				data sets like sequence reads, sequence alignments etc.
+
+
+release				subdirectories contain intermediate release of results from the
+				1000genomes project.
+				See individual README files in each subdirectory for a description
+				of contents.   
+
+
+technical/reference		This directory contains the two (male and female) human genome reference
+				assemblies used by the 1000genomes project. These are in gzipped, fasta format.
+				Files reporting b129 snp positions on reference NCBI36.3 
+
+
+technical/reference/ancestral_alignments
+				This directory contains the ancestral sequence for each human base (in human 
+				coordinates) as defined by the 4-way EPO alignments 
+				(ftp://ftp.ensembl.org/pub/release-54/emf/ensembl-compara/epo_4_catarrhini/).
+				
+
+
+technical/working		subdirectories contain intermediate sequence.index files.
+				pilot3_alignment_20090722 directory contains a number of July 2009 pilot 3
+				bam and indexed bam files.
+				
