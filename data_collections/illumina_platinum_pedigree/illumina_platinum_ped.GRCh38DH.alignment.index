@@ -1,4 +1,5 @@
-##fileDate=20150914
+##FileDate=20150914
+##Project=Illumina Platinum pedigree
 ##CRAM_FILE=Path to CRAM file - information on CRAM files can be found in ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/README_using_1000genomes_cram.md and information on the alignment process accompanies the data collection
 ##CRAM_MD5=md5 for CRAM file
 ##CRAI_FILE=Path to CRAI file
