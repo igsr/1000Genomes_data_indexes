@@ -75,7 +75,7 @@ The alignment files created by this approach are listed in the index file: ftp:/
 
 The alignments are located beneath this directory, under data. There, the files are origanised by population and then sample. The replicates for NA12882 are both located in the same sample directory. In each sample directory, an alignment directory contains the files.
 
-The alignments have been made available in CRAM format. Additional information on CRAM can be found in ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/README_using_1000genomes_cram.md. For each data set a .cram file, .crai index and .bas file is provided. Additional information on these files can be found in ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/README_file_formats_and_descriptions.md.
+The alignments have been made available in CRAM format. Additional information on CRAM can be found in ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/README_using_1000genomes_cram.md. For each data set a .cram file, .crai index and .bas file is provided. Additional information on these file types can be found in ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/README_file_formats_and_descriptions.md.
 
 ###Further information
 
