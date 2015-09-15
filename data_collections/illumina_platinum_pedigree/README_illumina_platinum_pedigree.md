@@ -13,7 +13,7 @@ The pedigree sequence data was generated on the 17 member CEPH pedigree 1463 and
 
 Additional description can be found in the [ENA entry for this project](http://www.ebi.ac.uk/ena/data/view/ERP001960).
 
-The sequence data sourced from the ENA is listed in the sequence index file: ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/data_collections/illumina_platinum_pedigree/illumina_platinum_ped.GRCh38DH.sequence.index
+The sequence data sourced from the ENA is listed in the sequence index file: ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/data_collections/illumina_platinum_pedigree/illumina_platinum_ped.sequence.index
 
 ###Alignment of the pedigree data to the reference genome
 
