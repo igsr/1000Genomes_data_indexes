@@ -1,7 +1,7 @@
-The 1000 Genomes FTP site under goes periodic rearranges to accomodate new data sets coming in
-and preserve old data in a new location.
+The 1000 Genomes FTP site under goes periodic rearrangments to accomodate new data sets coming in
+and to preserve old data in a new location.
 
-If you have a particular file that you don't know if it still exists the best place to try is
+If there is a particular file where you don't know if it still exists, the best place to try is
 our current.tree file.
 
 [ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/current.tree](ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/current.tree)
