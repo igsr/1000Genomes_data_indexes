@@ -1,13 +1,11 @@
 #Populations
 
-This file describes the population codes which are used to organise samples in the data_collections' project data directories and can also be found in column 11 of the sequence index files.
+This file describes the population codes where assigned to samples collected for the 1000 Genomes project. These codes are used to organise the files in the data_collections' project data directories and can also be found in column 11 of many sequence index files.
 
-There are also two tsv files, which contain the population codes and descriptions for both the sub and super populations:
+There are also two tsv files, which contain the population codes and descriptions for both the sub and super populations that were used in phase 3 of the 1000 Genomes Project:
 
 ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/phase3/20131219.populations.tsv
 ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/phase3/20131219.superpopulations.tsv
-
-You can also find PED files and fuller descriptions of all our samples and genders in ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/technical/working/20130606_sample_info/.
 
 ###Populations and codes
 
