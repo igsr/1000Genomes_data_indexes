@@ -1,4 +1,5 @@
 ##FileDate=20150914
+##Project=The 1000 Genomes Project
 ##CRAM=EBI ftp path to the CRAM file. If you like to use the NCBI ftp site, replace the ftp root with the NCBI ftp root ftp://ftp-trace.ncbi.nih.gov/1000genomes/ftp
 ##CRAM_MD5=md5 for CRAM file
 ##BAI=EBI ftp path to the CRAI file. See above if you like to use NCBI ftp site
