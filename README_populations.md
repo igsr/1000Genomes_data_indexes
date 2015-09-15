@@ -42,3 +42,5 @@ You can also find PED files and fuller descriptions of all our samples and gende
          BEB	Bengali                 Bengali in Bangladesh
          STU	Sri Lankan              Sri Lankan Tamil in the UK
          ITU	Indian                  Indian Telugu in the UK
+
+Should you have any queries, please contact info@1000genomes.org.
