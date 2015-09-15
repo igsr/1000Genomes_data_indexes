@@ -19,3 +19,5 @@ For this to work with your network's firewall you need to open ports 22/tcp (out
 - 193.62.193.6
 
 If the firewall has UDP flood protection, it must be turned off for port 33001.
+
+For further information, please contact info@1000genomes.org.
