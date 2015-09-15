@@ -1,0 +1,26 @@
+, .alignment.index, 20091216.alignment.index, diff
+ABI_SOLID
+mapped in Gb, , 624, 624
+# individuals, , 42, 42
+# individuals > 10Gb mapped, , 40, 40
+ILLUMINA
+mapped in Gb, , 2780, 2780
+# individuals, , 256, 256
+# individuals > 10Gb mapped, , 104, 104
+LS454
+mapped in Gb, , 189, 189
+# individuals, , 23, 23
+# individuals > 10Gb mapped, , 7, 7
+Total in Gb
+mapped in Gb, , 3593, 3593
+# individuals, , 271, 271
+# individuals > 10Gb mapped, , 140, 140
+
+.alignment.index 
+
+20091216.alignment.index Population breakdown,
+Platform, Total in Gb, ASW, CEU, CHB, CHS, FIN, GBR, JPT, LWK, MXL, TSI, YRI
+ABI_SOLID, 624,  0, 529,  0,  0,  0,  0,  0,  0,  0,  0, 95, 
+ILLUMINA, 2780,  0, 570, 229,  0,  0,  0, 800,  0,  0, 352, 828, 
+LS454, 189,  0, 164,  0,  0,  0,  0, 12,  0,  0,  0, 13, 
+Total, 3593,  0, 1264, 229,  0,  0,  0, 812,  0,  0, 352, 936,

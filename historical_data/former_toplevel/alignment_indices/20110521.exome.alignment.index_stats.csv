@@ -1,0 +1,19 @@
+SOLiD
+mapped_giga_bp, 3392.00
+num_individuals, 306
+num_ind_gt_10g, 219
+illumina
+mapped_giga_bp, 7328.64
+num_individuals, 822
+num_ind_gt_10g, 221
+Total
+mapped_giga_bp, 10720.65
+num_individuals, 1128
+num_ind_gt_10g, 440
+
+Population breakdown
+
+Platform, ASW, CEU, CHB, CHS, CLM, FIN, GBR, IBS, JPT, LWK, MXL, PUR, TSI, YRI, total_by_platform
+SOLiD, 98.84, 382.46, 280.20, 114.92, 225.03, 199.11, 318.17, 0, 274.99, 740.24, 123.92, 0, 413.60, 220.51, 3392.00,
+illumina, 364.70, 611.78, 656.57, 714.50, 335.04, 584.07, 602.23, 0, 748.07, 228.08, 429.46, 679.45, 547.86, 826.82, 7328.64,
+total_by_pop, 463.55, 994.24, 936.78, 829.43, 560.07, 783.19, 920.41, 0, 1023.06, 968.32, 553.37, 679.45, 961.46, 1047.33, 10720.65,
