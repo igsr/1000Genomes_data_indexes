@@ -71,7 +71,7 @@ In cases where release directories are named based on the date of the YYYYMMDD.s
 For example, the directory
 ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/release/20100804/
 contains the release versions of SNP and indel calls based on the 
-ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/sequence_indices/20100804.sequence.index
+ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/historical_data/former_toplevel/sequence_indices/20100804.sequence.index
 file.
 
 ####technical

@@ -4,6 +4,6 @@ This directory was created as part of a reorganisation of the 1000 Genomes Proje
 
 To provide continuity, this directory was created to hold files previously held at the top level of the FTP site. As of September 2015, the files in this directory are not being actively maintained but have been placed here so that they remain available to users for reference.
 
-For current information, please consult the [current files in the top level of the site](https://github.com/igsr/1000Genomes_data_indexes) along with the files associated with the data sets. 
+For current information, please consult the current files in the top level of the site, ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/, along with the files associated with the data sets. 
 
 Should you have any queries, please contact info@1000genomes.org.
