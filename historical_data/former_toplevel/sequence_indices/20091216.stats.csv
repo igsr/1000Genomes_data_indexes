@@ -1,0 +1,38 @@
+Category, old, new, diff
+Date, , 20091216, , 
+
+# Accessions, , 9941, , 
+
+# Samples, , 271, , 
+
+# Samples greater than 4x, , 150, , 
+
+Population in Gb, 
+CEU, , 1591, , 
+CHB, ,  271, , 
+JPT, , 1121, , 
+TSI, ,  372, , 
+YRI, , 1210, , 
+total, , 4565, , 
+
+
+Platform in Gb, 
+ABI_SOLID, ,  818, , 
+ILLUMINA, , 3549, , 
+LS454, ,  198, , 
+total, , 4565, , 
+
+
+Center in Gb, 
+454MSC, ,   66, , 
+ABI, ,  267, , 
+BCM, ,  495, , 
+BGI, ,  271, , 
+BI, , 1588, , 
+ILLUMINA, ,  105, , 
+MPIMG, ,  140, , 
+SC, , 1208, , 
+WUGSC, ,  425, , 
+total, , 4565, , 
+
+

@@ -1,0 +1,35 @@
+, old, new, diff
+, 20100517, 20100611, 20100719, 
+ABI_SOLID
+mapped_giga_bp,  997, 1033, 36, 
+num_individuals, 59, 60, 1, 
+num_ind_gt_10g, 57, 58, 1, 
+ILLUMINA
+mapped_giga_bp, 6415, 7074, 659, 
+num_individuals, 468, 508, 40, 
+num_ind_gt_10g, 346, 392, 46, 
+LS454
+mapped_giga_bp,  188,  188, 0, 
+num_individuals, 23, 23, 0, 
+num_ind_gt_10g, 7, 7, 0, 
+Total
+mapped_giga_bp, 7599, 8295, 696, 
+num_individuals, 498, 539, 41, 
+num_ind_gt_10g, 391, 438, 47, 
+
+
+Population breakdown
+
+old - 20100517
+, ASW, CEU, CHB, CHS, FIN, GBR, JPT, LWK, MXL, PUR, TSI, YRI, total_by_platform
+ABI_SOLID,   32,  546,  150, 0, 0, 0,   96,   39, 0, 0, 0,  134,  997, 
+ILLUMINA,  483, 1180,  681, 0, 0,  117, 1237,  432,  175, 0, 1060, 1049, 6415, 
+LS454, 0,  162, 0, 0, 0, 0,   12, 0, 0, 0, 0,   13,  188, 
+total_by_pop,  514, 1888,  832, 0, 0,  117, 1346,  471,  175, 0, 1060, 1196, 7599, 
+
+new - 20100611
+, ASW, CEU, CHB, CHS, FIN, GBR, JPT, LWK, MXL, PUR, TSI, YRI, total_by_platform
+ABI_SOLID,   32,  546,  150, 0, 0, 0,   96,   75, 0, 0, 0,  134, 1033, 
+ILLUMINA,  483, 1182,  743,   42, 0,  117, 1293,  838,  180, 0, 1148, 1049, 7074, 
+LS454, 0,  162, 0, 0, 0, 0,   12, 0, 0, 0, 0,   13,  188, 
+total_by_pop,  514, 1890,  894,   42, 0,  117, 1402,  913,  180, 0, 1148, 1196, 8295, 

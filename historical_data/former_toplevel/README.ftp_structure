@@ -1,0 +1,216 @@
+
+The 1000genomes project has two mirrored ftp sites:
+ftp://ftp.1000genomes.ebi.ac.uk and ftp://ftp-trace.ncbi.nih.gov/1000genomes/ 
+
+These follow this basic structure.
+
+At the top level there are 6 directories:
+
+data
+release
+sequence_indices
+alignment_indices
+technical
+changelog_details
+
+There is also a pilot_data directory which represents data from the pilot study
+
+The top directory also contains two major index files.
+ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/sequence.index
+ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/alignment.index
+
+
+
+
+==== data ====:
+ contains a subdirectory per individual of the main project. Each individual directory
+contains series of subdirectories for different data sets like sequence reads, sequence alignments etc.
+
+e.g  ftp://ftp.1000genomes.ebi.ac.uk/data/NA12878/sequence_reads/SRR003082_1.filt.fastq.gz 
+or   ftp://ftp-trace.ncbi.nih.gov/1000genomes/data/NA12878/sequence_reads/SRR003082_1.filt.fastq.gz
+
+
+==== release ==== 
+ contains dated directories which contain analysis results sets released on
+that date plus readmes explaining how those data sets were produced.
+
+e.g ftp://ftp.1000genomes.ebi.ac.uk/release/2008_12/
+or  ftp://ftp-trace.ncbi.nih.gov/1000genomes/release/2008_12/
+
+Release directories will now be named based on the date of the YYYYMMDD.sequence.index. 
+The SNP and indel calls etc. in these directories will be based on alignments produced from
+data listed in the  YYYYMMDD.sequence.index file.
+
+For example, the directory
+ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/release/20100804/
+contains the release versions of snp and indels calls based on the 
+ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/sequence_indices/20100804.sequence.index
+file.
+
+
+==== technical ==== 
+ contains subdirectories for other data sets like simulations or files for
+method development interm data sets etc.
+
+e.g ftp://ftp.1000genomes.ebi.ac.uk/technical/simulations
+or  ftp://ftp-trace.ncbi.nih.gov/1000genomes/technical/simulations
+
+WARNING: Directory: technical/working 
+This directory contains data that has experimental (non public release) status
+and is suitable for internal project use only. Please use with caution. 
+
+
+=== sequence_indices ===
+
+This directory contains all previously produced sequence.index files.
+Each file begins with YYYMYDD indicating its release date. The date
+appearing in the name of a main project bam files link them to a corresponding sequence
+the sequence.index file with the same date.
+
+The most recent file should also match ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/sequence.index
+
+eg. 
+NA10851.unmapped.ILLUMINA.bwa.CEU.low_coverage.20101123.bam
+was constructed using NA12878 low_coverage sequence files listed in the file:
+ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/sequence_indices/20101123.sequence.index
+
+Each sequence.index file is accompanied by two types of statistics files ( stats.cvs
+and .stats)
+
+Each YYYMMDD_sequence.index.stats files contains summary information about
+Study/Population/Center/Sample coverage statistics for the sequence data
+listed in that particular file.
+eg.20101123.sequence.index.stats
+
+.stats files contains sequencing strategy names (exome,low_coverage) contain
+a subset of the summary information contained in the YYYMMDD_sequence.index.stats
+relating to exome/low_coverage data only.
+
+
+eg.
+20101123.sequence.index.exome.stats
+20101123.sequence.index.low_coverage.stats
+
+.cvs statistics files give the incremental changes that 
+have occured for Population,Center and Sequencing platform from the 
+sequence index files linked to the dates listed at the beginning of the file names.
+   
+eg. the files
+20101101_20101123.exome_stats.csv
+20101101_20101123.low_coverage_stats.csv
+
+give summary information of the differences between the data listed in 
+the 2010110.sequence.index and the 20101123.sequence.index files
+
+
+
+=== alignment_indices ===
+This directory contains all previously produced alignment.index files.
+Each file begins with YYYMYDD indicating the dated file name of the sequence.index
+file that alignments are constructed from. 
+appearing in the name of a main project bam file links it
+data in the bam file to that listed in the date stamped sequence.index file
+
+The most recent file should also match ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/sequence.index
+
+You will also find stats files:
+eg. 20101123.alignment.index.bas.gz  
+These contain all the .bas files for the bam files in the release concatenated 
+into a single file.
+
+also stats files
+eg. 20101123_20100901.alignment_stats.low_coverage.csv 
+This type of file contains similar information to the stats file in the  
+sequence_indices directory
+
+=== changelog_details ===
+
+In order to make the main root-level CHANGELOG human-readable, and scrollable, 
+any changes made to the contents of the ftp site are summarised in files contained in this
+directory and referenced in the root-level CHANGELOG file. 
+These files are named to reflect when and what type of changes that have occured. The types 
+of changes are restricted to 'new','moved','replacement' or 'withdrawn'.  
+
+eg.
+changelog_details_20110216_new
+changelog_details_20110216_replacement
+changelog_details_20110216_withdrawn
+changelog_details_20110216_moved
+
+==== pilot_data ====:
+This represent a frozen version of the pilot data. It contains the most of the same directories as the main ftp directory and in the same form.
+
+Some notes about this directory
+
+release, during the pilot project release directories were named in the form YYYY_MM
+paper_data_sets, this contains copies of data associated with the pilot papers
+
+
+=== Index files ===
+
+The volume of data generated by 1000genomes project is unprecedented. 
+
+To ensure all the data is easily locatable the most update to date sequence 
+and alignment files are listed in index files
+
+ftp://ftp-trace.ncbi.nih.gov/1000genomes/ftp/sequence.index
+ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/sequence.index
+and
+ftp://ftp-trace.ncbi.nih.gov/1000genomes/ftp/alignment.index
+ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/alignment.index
+
+The format of these files are explained in
+
+ftp://ftp-trace.ncbi.nih.gov/1000genomes/ftp/README.sequence.index
+ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/README.sequence.index
+and
+ftp://ftp-trace.ncbi.nih.gov/1000genomes/ftp/README.alignment.index
+ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/README.alignment.index
+
+These index files should provide you with sufficient data to download subsets of the files either by study, 
+individual or technology. They also contain the md5s of the files.
+
+
+The main project alignment file names also contain similar information  e.g
+
+data/NA12878/alignment/NA12878.chromY.SOLID.bfast.CEU.high_coverage.20100125.bam
+data/NA12878/alignment/NA12878.chrom20.LS454.ssaha2.CEU.exon_targetted.20100311.bam
+data/NA12878/alignment/NA12878.unmapped.LS454.ssaha2.CEU.exon_targetted.20100311.bam
+data/NA12878/alignment/NA12878.nonchrom.ILLUMINA.bwa.CEU.exon_targetted.20100311.bam
+
+
+Filename components
+-The filename starts with the Sample name from Corelli/Hapmap.
+-If the alignment has been split by chromosome there will be a chromosome name.
+-The sequencing technology is next, ILLUMINA for illumina, LS454 for 454 and 
+ SOLID for SOLiD. 
+-The abbreviation of the name of the aligner used ( bwa,bfast etc.).
+-Three letter abbreviation of the population the individual belongs to.  
+-The analysis group of the sequence, this reflects sequencing strategy 
+-The release date of the sequence.index file containing the list of sequence files used 
+ to construct the alignment file.
+
+
+( For alignment files in /ftp/pilot_data
+  SLX for illumina, 454 for 454 and SOLID for SOLiD
+  The SRP is the study identifier, 31 is pilot1 low coverage, 32 is pilot2 high coverage, 
+  33 is pilot3 gene targetted sequencing.
+
+If the filename contains 'unmapped', the bam represents reads associated with that individual which didn't 
+map to the reference.
+
+Each bam file is accompanied by an an index (.bai) file and also a statistics file (.bas). 
+See ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/README.alignment_data for a description
+of the .bas file contents. 
+
+
+The alignments are all done in comparision to the reference found in
+ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/technical/reference/
+
+pilot/data alignments are against the NCBI Build 36 reference.
+Main project alignments are against the GRCh37 reference. 
+
+
+##################################################################
+
+

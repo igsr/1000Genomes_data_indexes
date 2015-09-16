@@ -13,7 +13,7 @@ The pedigree sequence data was generated on the 17 member CEPH pedigree 1463 and
 
 Additional description can be found in the [ENA entry for this project](http://www.ebi.ac.uk/ena/data/view/ERP001960).
 
-The sequence data sourced from the ENA is listed in the sequence index file: ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/data_collections/illumina_platinum_pedigree/illumina_platinum_ped.GRCh38DH.sequence.index
+The sequence data sourced from the ENA is listed in the sequence index file: ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/data_collections/illumina_platinum_pedigree/illumina_platinum_ped.sequence.index
 
 ###Alignment of the pedigree data to the reference genome
 
@@ -75,4 +75,8 @@ The alignment files created by this approach are listed in the index file: ftp:/
 
 The alignments are located beneath this directory, under data. There, the files are origanised by population and then sample. The replicates for NA12882 are both located in the same sample directory. In each sample directory, an alignment directory contains the files.
 
-The alignments have been made available in CRAM format. Additional information on CRAM can be found in ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/README_using_1000genomes_cram.md. For each data set a .cram file, .crai index and .bas file is provided.
+The alignments have been made available in CRAM format. Additional information on CRAM can be found in ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/README_using_1000genomes_cram.md. For each data set a .cram file, .crai index and .bas file is provided. Additional information on these file types can be found in ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/README_file_formats_and_descriptions.md.
+
+###Further information
+
+If you require further information, please contact info@1000genomes.org.
