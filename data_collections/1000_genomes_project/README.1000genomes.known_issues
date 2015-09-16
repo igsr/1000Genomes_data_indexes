@@ -1,0 +1,7 @@
+##FileDate=2015-09-15
+##Project=The 1000 Genomes Project
+1.  ALT-aware BWA (bwa-postalt.js to be specific) downloaded before 2015-08-27 has a bug in reverse complement for reads of even lengths mapped to ALT contigs.  When this bug occurs, you will see NM is smaller than the number of differences you count between the (wrong) read and the reference. When this happens, one of the two middle bases is wrong. You can use this information to correct most such errors except a few corner cases. This affects variant calling on ALTs. You will see random high-quality mismatches occurring at a chance of 1/126/2=0.5%.
+
+All low coverage CRAMs in this directory are affected by this bug; exome and high coverage CRAMs are OK.
+
+2.  The low coverage CRAM file for sample HG03006 contains not only the low coverage runs, but also by mistake two high coverage runs SRR1295570 and SRR1295568.  The CRAM file name is HG03006.alt_bwamem_GRCh38DH.20150718.BEB.low_coverage.cram.  This will be corrected in the near future.
