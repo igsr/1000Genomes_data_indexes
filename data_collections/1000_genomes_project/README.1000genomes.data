@@ -6,20 +6,20 @@ As all of the 1000 Genomes Project reads in the format of fastq files are availa
 
 The data in the sequence index are categorised into 3 analysis groups (column 26) based on the library strategy used:
 
-WGS - Low coverage whole genome sequencing
-WXS - Whole exome sequencing 
-HC_WGS - PCR-free high coverage whole genome sequencing
+low coverage - Low coverage whole genome sequencing
+exome - Whole exome sequencing 
+high coverage - PCR-free high coverage whole genome sequencing
 
 When align to GRCh38,  data from the three analysis groups were aligned independently, producing three sets of CRAM files.
 
 Some of the runs have a withdrawn flag (column 21); these runs were not included in subsequent analysis. Column 22 indicates the reason why a run is withdrawn.  Below are the possible reasons:
 
 SUPPRESSED IN ARCHIVE - runs were withdrawn by submitters so the fastq file is no longer available from ENA/SRA
-TOO SHORT - alll reads in a  WGS run are shorter than 70bp or in a WXS run shorter than 68bp
-NOT-ILLUMINA - a run generated on a platform that is not Illumina.  For data consistency, we only include data produced on the Illumina platform for subsequent analysis. 
+TOO_SHORT - alll reads in a  whole genome sequencing run are shorter than 70bp or in a exome run shorter than 68bp
+NOT_ILLUMINA - a run generated on a platform that is not Illumina.  For data consistency, we only include data produced on the Illumina platform for subsequent analysis. 
 
 
 ## Alignment Data ##
 
-The sequence data described by the sequence index file (1000genomes.sequence.index) were aligned to GRCh38 using ALT-aware bwa-mem. Please see details of the alignment process in README.1000genomes.GRCh38DH.alignment.  Sample level CRAMs were produced; the CRAM files and ancillary files are listed in three alignment index, one for WGS (low_coverage.GRCh38DH.alignment.index), one for WXS (to come) and one for HC_WGS (to come).
+The sequence data described by the sequence index file (1000genomes.sequence.index) were aligned to GRCh38 using ALT-aware bwa-mem. Please see details of the alignment process in README.1000genomes.GRCh38DH.alignment.  Sample level CRAMs were produced; the CRAM files and ancillary files are listed in three alignment index, one for low coverage (low_coverage.GRCh38DH.alignment.index), one for exome (to come) and one for high coverage (to come).
 
