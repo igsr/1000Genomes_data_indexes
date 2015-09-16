@@ -1,8 +1,6 @@
 #GRCh38 Alignment 
 
-This README explains the two alignment pipelines used to remap 23 PCR free samples which were created for the 1000 Genomes Project Phase 3.
-
-These alignments are designed to support a comparison betwen alt aware and non alt aware mapping using BWA. The following documentation lists the reference datasets
+This README explains the alignment pipeline used to align to GRCh38 the high coverage Illumina data of SV group's trio samples 
 
 ##Reference datasets/Programs
 
