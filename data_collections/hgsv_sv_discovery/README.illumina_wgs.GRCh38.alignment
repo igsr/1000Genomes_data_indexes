@@ -58,5 +58,5 @@ java cramtools-3.0.jar cram --input-bam-file $input_bam --output-cram-file $outp
 
 The alignment files created by this approach are listed in the index file
 
-ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/hgsv_sv_discovery/illumina_wgs.GRCh38.alignment.index
+ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/data_collections/hgsv_sv_discovery/illumina_wgs.GRCh38.alignment.index
 
