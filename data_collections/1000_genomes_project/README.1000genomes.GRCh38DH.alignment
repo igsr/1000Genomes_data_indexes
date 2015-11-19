@@ -60,7 +60,11 @@ http://sourceforge.net/projects/bio-bwa/files/bwakit/bwakit-0.7.12_x64-linux.tar
 6. Creating lossless CRAM files using Cramtools
 `java cramtools-3.0.jar cram --input-bam-file $input_bam --output-cram-file $output_cram --capture-all-tags --ignore-tags OQ:CQ:BQ --preserve-read-names --lossy-quality-score-spec *8 --reference-fasta-file $reference_fasta `
 
-The alignment files created by this approach are listed in the index file
+The alignment files created by this approach are listed in alignment index files
 
-ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/low_coverage.GRCh38DH.alignment.index
+For Low coverage reads:
+ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/data_collections/1000_genomes_project/1000genomes.low_coverage.GRCh38DH.alignment.index
+
+For Exome reads:
+ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/data_collections/1000_genomes_project/1000genomes.exome.GRCh38DH.alignment.index
 
