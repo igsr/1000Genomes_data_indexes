@@ -23,6 +23,5 @@ NOT_ILLUMINA - a run generated on a platform that is not Illumina.  For data con
 
 ## Alignment Data ##
 
-The sequence data described by the sequence index file (1000genomes.sequence.index) were aligned to GRCh38 using ALT-aware bwa-mem. Please see details of the alignment process in README.1000genomes.GRCh38DH.alignment.  Sample level CRAMs were produced; the CRAM files and ancillary files are listed in an alignment index, low_coverage.GRCh38DH.alignment.index
+The sequence data described by the sequence index file (1000genomes.sequence.index) were aligned to GRCh38 using ALT-aware bwa-mem. Please see details of the alignment process in README.1000genomes.GRCh38DH.alignment.  Sample level CRAMs were produced; the CRAM files and ancillary files are listed in alignment index files in this directory.
 
-We are in the process of aligning the exome and high coverage data too. This directory will be updated when those files are ready.
