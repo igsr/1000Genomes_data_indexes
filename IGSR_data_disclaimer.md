@@ -12,3 +12,4 @@ Data from the Human Genome Structural Variation Consortium (HGSVC) continues the
 
 For any enquiries, including the terms of use of data and citation, please contact info@1000genomes.org.
 
+This document was added on 11th January 2016.
