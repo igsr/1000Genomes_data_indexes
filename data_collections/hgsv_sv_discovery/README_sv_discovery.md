@@ -79,6 +79,6 @@ The consortium has decided to align to the full GRCh38 reference genome include 
 
 ##Data Reuse policy
 
-The data produced by the Human Genome Structural Variation Consortium is released early in line with the Toronto Workshop pre publication data release guidelines. Our data reuse policy is described in (README_hgsvc_datareuse_statement.md)[https://github.com/igsr/1000Genomes_data_indexes/blob/master/sv_discovery_indexes/README_hgsvc_datareuse_statement.md].
+The data produced by the Human Genome Structural Variation Consortium is released early in line with the Toronto Workshop pre publication data release guidelines. Our data reuse policy is described in (README_hgsvc_datareuse_statement.md)[https://github.com/igsr/1000Genomes_data_indexes/blob/master/data_collections/hgsv_sv_discovery/README_hgsvc_datareuse_statement.md].
 
 Please email info@1000genomes.org to with any questions about either the index files or the data reuse policy
