@@ -1,6 +1,6 @@
 #SV discovery index files
 
-The [sv_discovery_index directory of the 1000Genomes_data_indexes repo](https://github.com/igsr/1000Genomes_data_indexes/tree/master/data_collections/hgsv_sv_discovery) contains index files relating to the Human Genome Structural Variation Consortium. These index files point to the data stored in the European Nucleotide Archive (ENA)
+The [hgsv_sv_discovery directory of the 1000Genomes_data_indexes repo](https://github.com/igsr/1000Genomes_data_indexes/tree/master/data_collections/hgsv_sv_discovery) contains index files relating to the Human Genome Structural Variation Consortium. These index files point to the data stored in the European Nucleotide Archive (ENA)
 
 Our README files are all written in markdown format, if the formatting makes these files difficult to read please email info@1000genomes.org and improve the files.
 
