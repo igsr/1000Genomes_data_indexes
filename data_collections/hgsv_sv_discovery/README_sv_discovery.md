@@ -1,6 +1,6 @@
 #SV discovery index files
 
-The [hgsv_sv_discovery directory of the 1000Genomes_data_indexes repo](https://github.com/igsr/1000Genomes_data_indexes/tree/master/data_collections/hgsv_sv_discovery) contains index files relating to the Human Genome Structural Variation Consortium. These index files point to the data stored in the European Nucleotide Archive (ENA)
+The [hgsv_sv_discovery directory of the 1000Genomes_data_indexes repo](https://github.com/igsr/1000Genomes_data_indexes/tree/master/data_collections/hgsv_sv_discovery) contains index files relating to the Human Genome Structural Variation Consortium. These index files point to the data stored in the European Nucleotide Archive (ENA).
 
 Our README files are all written in markdown format, if the formatting makes these files difficult to read please email info@1000genomes.org and improve the files.
 
@@ -8,7 +8,7 @@ Our README files are all written in markdown format, if the formatting makes the
 
 This contains lists for the pacbio SMRT sequencing HDF5 files in the ENA. 
 
-The columns in the file are 
+The columns in the file are: 
 
 1.  ENA FILE PATH, This is the FTP file path to the file on the ENA FTP site.
 2.  MD5 CHECKSUM, This is an md5 checksum for the file.
@@ -33,7 +33,7 @@ The columns in the file are
 
 This contains lists for the Illumina wgs sequence fastq files in the ENA. 
 
-The columns in the file are
+The columns in the file are:
 
 1.  ENA FILE PATH, This is the FTP file path to the file on the ENA FTP site.
 2.  MD5 CHECKSUM, This is an md5 checksum for the file.
@@ -59,26 +59,26 @@ The columns in the file are
  
 ##Download instructions
 
-Full instructions can be found on [http://www.ebi.ac.uk/ena/browse/read-download](http://www.ebi.ac.uk/ena/browse/read-download)
+Full instructions can be found on [http://www.ebi.ac.uk/ena/browse/read-download](http://www.ebi.ac.uk/ena/browse/read-download).
 
-The URLS in the index files point to the ENA FTP site. The files can also be downloaded with aspera and globusgridftp
+The URLS in the index files point to the ENA FTP site. The files can also be downloaded with aspera and globusgridftp.
 
-To download the file with aspera you need a command like
+To download the file with aspera you need a command like:
 
 `ascp -i asperaweb_id_dsa.openssh -Tr -Q -l 100M -L- era-fasp@fasp.sra.ebi.ac.uk:vol1/ERA420/ERA420531/pacbio_hdf5/m150202_035116_42248_c100731862550000001823141405141532_s1_p0.1.bax.h5`
 
 The asperaweb openssh key should come with standard ascp installs. 
 
-In linux it is found under the aspera connect install directory .aspera/connect/etc/asperaweb_id_dsa.openssh 
+In linux it is found under the aspera connect install directory (.aspera/connect/etc/asperaweb_id_dsa.openssh). 
 
-The ENA globus endpoint is ebi#ena
+The ENA globus endpoint is ebi#ena.
 
 ##Reference datasets
 
-The consortium has decided to align to the full GRCh38 reference genome include alts, decoy and HLA sequence. A full description of the reference data can be found in [README_sv_reference_datasets](https://github.com/igsr/1000Genomes_data_indexes/blob/master/sv_discovery_indexes/README_sv_reference_datasets.md)
+The consortium has decided to align to the full GRCh38 reference genome include alts, decoy and HLA sequence. A full description of the reference data can be found in [README_sv_reference_datasets](https://github.com/igsr/1000Genomes_data_indexes/blob/master/sv_discovery_indexes/README_sv_reference_datasets.md).
 
 ##Data Reuse policy
 
 The data produced by the Human Genome Structural Variation Consortium is released early in line with the Toronto Workshop pre publication data release guidelines. Our data reuse policy is described in (README_hgsvc_datareuse_statement.md)[https://github.com/igsr/1000Genomes_data_indexes/blob/master/data_collections/hgsv_sv_discovery/README_hgsvc_datareuse_statement.md].
 
-Please email info@1000genomes.org to with any questions about either the index files or the data reuse policy
+Please email info@1000genomes.org to with any questions about either the index files or the data reuse policy.
