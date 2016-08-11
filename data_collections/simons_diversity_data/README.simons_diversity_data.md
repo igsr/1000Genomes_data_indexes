@@ -18,7 +18,7 @@ Please note that some of the samples included in the Simons Diversity Project ar
 
 ###Questions
 
-If you have any questions about using the data please email info@1000genomes.org.
+If you have any questions please email info@1000genomes.org.
 
 
 
