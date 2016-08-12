@@ -14,7 +14,7 @@ The genomes were sequenced to at least 30x coverage using Illumina technology at
 
 ###Samples in the Simons Diversity Project
 
-Please note that some of the samples included in the Simons Diversity Project are also present in either the 1000 Genomes Project or the HGDP collections.
+Please note that some of the samples included in the Simons Diversity Project are also present in either the [1000 Genomes Project](http://ftp.1000genomes.ebi.ac.uk/vol1/ftp/data_collections/1000_genomes_project/) or the [HGDP](https://github.com/igsr/1000Genomes_data_indexes/blob/master/data_collections/HGDP/README_HGDP.md) collections.
 
 ###Questions
 
