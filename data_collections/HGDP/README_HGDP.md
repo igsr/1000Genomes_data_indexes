@@ -2,7 +2,7 @@
 
 This collection contains data relating to the Human Genome Diversity Project (HGDP).
 
-**Please respect Fort Lauderdale Principles and see the accompanying Data Reuse policy with regard to this data.**
+**Please respect Fort Lauderdale Principles and see the accompanying Data Reuse policy with regard to this data. details of this policy can be found in the [README_HGDP_datareuse_statement.md](https://github.com/igsr/1000Genomes_data_indexes/blob/master/data_collections/HGDP/README_HGDP_datareuse_statement.md)**
 
 ###HGDP-CEPH
 
