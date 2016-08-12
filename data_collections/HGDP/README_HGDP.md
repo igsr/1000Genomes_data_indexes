@@ -2,7 +2,7 @@
 
 This collection contains data relating to the Human Genome Diversity Project (HGDP).
 
-**Please respect Fort Lauderdale Principles and see the accompanying Data Reuse policy with regard to this data. details of this policy can be found in the [README_HGDP_datareuse_statement.md](https://github.com/igsr/1000Genomes_data_indexes/blob/master/data_collections/HGDP/README_HGDP_datareuse_statement.md)**
+**Please respect [Fort Lauderdale Principles](https://www.genome.gov/pages/research/wellcomereport0303.pdf) and see the accompanying Data Reuse policy with regard to this data. details of this policy can be found in the [README_HGDP_datareuse_statement.md](https://github.com/igsr/1000Genomes_data_indexes/blob/master/data_collections/HGDP/README_HGDP_datareuse_statement.md)**
 
 ###HGDP-CEPH
 
@@ -16,7 +16,7 @@ The [Tyler-Smith group](http://www.sanger.ac.uk/science/groups/tyler-smith-group
 
 ###Samples in the HGDP collection
 
-Please note that some of the samples present in the HGDP collection are also present in the Simons diversity collection.
+Please note that some of the samples present in the HGDP collection are also present in the [Simons diversity](https://github.com/igsr/1000Genomes_data_indexes/blob/master/data_collections/simons_diversity_data/README_Simons_diversity_data.md) collection.
 
 ###Questions
 If you have any questions please email info@1000genomes.org.
