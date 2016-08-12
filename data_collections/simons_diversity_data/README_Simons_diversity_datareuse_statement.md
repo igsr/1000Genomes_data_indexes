@@ -4,7 +4,7 @@ This README refers to the [Simons Genome Diversity Project Dataset](https://www.
 
 ###Please respect Fort Lauderdale Principles
 
-The sequence data for the Simons Diversity Project are made freely available. However, please observe the Fort Lauderdale principles, which entitle the data producers to make the first presentation and publish the first genome-wide analysis of the data. The data can be used freely for studies of individual genes or other individual features of the genome.
+The sequence data for the Simons Diversity Project are made freely available with the expectation that is will be valueble to many researchers. However, please observe the Fort Lauderdale principles, which entitle the data producers to make the first presentation and publish the first genome-wide analysis of the data. The data can be used freely for studies of individual genes or other individual features of the genome.
 
 ###Data producers
 
