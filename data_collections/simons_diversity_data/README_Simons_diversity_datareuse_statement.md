@@ -1,6 +1,6 @@
 ##Data Reuse policy
 
-This README refers to the [Simons Genome Diversity Project Dataset](https://www.simonsfoundation.org/life-sciences/simons-genome-diversity-project-dataset/).
+This README refers to the data reuse policy for the [Simons Genome Diversity Project Dataset](https://www.simonsfoundation.org/life-sciences/simons-genome-diversity-project-dataset/).
 
 ###Please respect Fort Lauderdale Principles
 
