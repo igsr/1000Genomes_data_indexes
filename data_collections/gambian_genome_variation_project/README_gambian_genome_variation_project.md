@@ -2,7 +2,7 @@
 
 This collection contains data relating to the Gambian Genome Variation Project.
 
-**Please respect Fort Lauderdale Principles and see the accompanying Data Reuse policy with regard to this data. details of this policy can be found in the [README_HGDP_datareuse_statement.md](https://github.com/igsr/1000Genomes_data_indexes/blob/master/data_collections/gambian_genome_variation_project/README_gambian_genome_variation_project_datareuse_statement.md)**
+**Please respect Fort Lauderdale Principles and see the accompanying Data Reuse policy with regard to this data. details of this policy can be found in the [README_gambian_genome_variation_project_datareuse_statement.md](https://github.com/igsr/1000Genomes_data_indexes/blob/master/data_collections/gambian_genome_variation_project/README_gambian_genome_variation_project_datareuse_statement.md)**
 
 ###Sequence data
 
