@@ -4,7 +4,7 @@ This README refers to the data reuse policy for the HGDP data collection.
 
 ###Please respect Fort Lauderdale Principles
 
-This data is freely shared in the expectation that they will be valuable for many researchers. Please observe the Fort Lauderdale principles when using this data. These principles entitles the data producers to make the first presentation and publish the first genome-wide analysis of the data. 
+This data is freely shared in the expectation that they will be valuable for many researchers. Please observe the [Fort Lauderdale principles](https://www.genome.gov/pages/research/wellcomereport0303.pdf) when using this data. These principles entitles the data producers to make the first presentation and publish the first genome-wide analysis of the data. 
 
 ###The HGDP-CEPH Panel
 
