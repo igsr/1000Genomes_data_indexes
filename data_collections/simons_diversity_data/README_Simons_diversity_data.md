@@ -2,7 +2,7 @@
 
 This collection contains data from the [Simons Genome Diversity Project](https://www.simonsfoundation.org/life-sciences/simons-genome-diversity-project-dataset/).
 
-**Please respect Fort Lauderdale Principles and see the [accompanying Data Reuse policy](https://github.com/igsr/1000Genomes_data_indexes/blob/master/data_collections/simons_diversity_data/README_Simons_diversity_datareuse_statement.md) with regard to this data.**
+**Please respect [Fort Lauderdale Principles](https://www.genome.gov/pages/research/wellcomereport0303.pdf) and see the [accompanying Data Reuse policy](https://github.com/igsr/1000Genomes_data_indexes/blob/master/data_collections/simons_diversity_data/README_Simons_diversity_datareuse_statement.md) with regard to this data.**
 
 ###About the Simons Genome Diversity Project
 
