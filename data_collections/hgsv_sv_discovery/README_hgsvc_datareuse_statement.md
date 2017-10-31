@@ -1,4 +1,4 @@
-##Data Reuse policy
+## Data Reuse policy
 
 This README refers all the data associated with Human Genome Structural Variation Consortium to create a high 
 quality catalog of structural variation using various sequencing approaches.
@@ -11,7 +11,7 @@ will be valuable for many researchers. In keeping with Fort Lauderdale principle
 users may use the data for many studies, but are expected to allow the data producers 
 to make the first presentations and to publish the first paper with global analyses of the data.
 
-###Global analyses of Project data
+### Global analyses of Project data
 
 The Project plans to publish global analyses of the sequence data and quality, structural variants, 
 STRs and microsatellites and haplotypes and LD patterns, population genetic phenomena such as 
@@ -22,7 +22,7 @@ by approved presenters on behalf of the Project, with the group as author. When 
 Project paper on these analyses is published, then researchers inside and outside the Project are 
 free to present and publish using the Project data for these and other analyses.
 
-###Large-scale analyses of Project data
+### Large-scale analyses of Project data
 
 Groups within the Project may make presentations and publish papers on more extensive analyses of 
 topics to be included in the main analysis presentations and papers, coincident with the main 
@@ -30,7 +30,7 @@ Project analysis presentations and papers. The major points would be included in
 presentations and papers, but these additional presentations and papers allow more focused discussion 
 of methods and results. The author list would include the Consortium.
 
-###Methods development using Project data
+### Methods development using Project data
 
 Researchers who have used small amounts of Project data (<=one chromosome or chromosomal regions not of
 general interest) may present methods development posters, talks, and papers that include these data prior to 
@@ -40,13 +40,13 @@ data, on topics that the Consortium plans to examine, would be similar to large-
 researchers within the Project may make presentations or submit papers at the same time as the main 
 Project presentations and papers, and others could do so after the Project publishes the first major analysis paper.
 
-###Disease studies using Project data
+### Disease studies using Project data
 
 Researchers may present and publish on use of Project data in specific chromosome regions (that are not of general interest) 
 or as summaries (such as the total number of variants) for disease studies without Project approval, prior to 
 the first major Project paper being published. The Project should not be listed as an author.
 
-###Population comparisons using Project data
+### Population comparisons using Project data
 
 Researchers may use Project data as controls or additional information for comparisons with their samples 
 from people with particular diseases or from other populations, prior to the major Project paper being 
