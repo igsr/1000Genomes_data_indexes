@@ -6,7 +6,7 @@ This collection contains data from the [Simons Genome Diversity Project](https:/
 
 ###About the Simons Genome Diversity Project
 
-Information about the project is available on the [Simons Foundation website](https://www.simonsfoundation.org/life-sciences/simons-genome-diversity-project-dataset/):
+Information about the project is available on the [Simons Foundation website](https://www.simonsfoundation.org/simons-genome-diversity-project/):
 
 "The sampling strategy differs from studies of human genome diversity that have aimed to maximize medical relevance by studying populations with large numbers of present-day people. This new study takes a different approach by sampling populations in a way that represents as much anthropological, linguistic and cultural diversity as possible, and thus includes many deeply divergent human populations that are not well represented in other datasets."
 
