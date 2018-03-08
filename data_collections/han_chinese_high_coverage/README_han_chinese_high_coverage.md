@@ -2,7 +2,7 @@
 
 This collection contains data relating to 90 Han Chinese genomes, which have been sequenced at high coverage by Lan et al. These samples were collected by the 1000 Genomes Project and include individuals from the CHS and CHB populations of the 1000 Genomes Project. Further details can be found in the [Gigascience publication](https://doi.org/10.1093/gigascience/gix067) which describes this sequence data.
 
-**Please respect [Fort Lauderdale Principles](https://www.genome.gov/pages/research/wellcomereport0303.pdf) and see the accompanying Data Reuse policy with regard to this data. Details of this policy can be found in the [README_han_chinese_high_coverage_datareuse_statement.md](http://ftp.1000genomes.ebi.ac.uk/vol1/ftp/data_collections/han_chinese_high_coverage/README_han_chinese_high_coverage_datareuse_statement.md)**
+**Please see the accompanying Data Reuse policy with regard to this data and cite the publication mentioned above. Details of the Data Reuse policy can be found in [README_han_chinese_high_coverage_datareuse_statement.md](http://ftp.1000genomes.ebi.ac.uk/vol1/ftp/data_collections/han_chinese_high_coverage/README_han_chinese_high_coverage_datareuse_statement.md).**
 
 ###Cell lines
 
