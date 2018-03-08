@@ -1,6 +1,6 @@
 #Data Reuse policy
 
-This README refers to the data reuse policy for the Han Chinese high coverage data collection.
+This README refers to the data reuse policy for the Han Chinese high coverage data collection. If you use this data, please be sure to cite the publication by [Lan et al. ](https://academic.oup.com/gigascience/article/6/9/1/4056272), which describes the generation of the sequence data.
 
 ###The Han Chinese samples
 
