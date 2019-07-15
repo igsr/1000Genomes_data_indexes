@@ -1,12 +1,12 @@
 #SV discovery index files
 
-The [hgsv_sv_discovery directory of the 1000Genomes_data_indexes repo](https://github.com/igsr/1000Genomes_data_indexes/tree/master/data_collections/hgsv_sv_discovery) contains index files relating to the Human Genome Structural Variation Consortium. These index files point to the data stored in the European Nucleotide Archive (ENA).
+The [hgsv_sv_discovery directory](ftp.1000genomes.ebi.ac.uk/vol1/ftp/data_collections/hgsv_sv_discovery/) contains index files relating to the Human Genome Structural Variation Consortium. These index files point to the data stored in the European Nucleotide Archive (ENA) or on the 1000 Genomes/IGSR FTP site.
 
 Our README files are all written in markdown format, if the formatting makes these files difficult to read please email info@1000genomes.org and improve the files.
 
 ##smrt.sequence.index
 
-This contains lists for the pacbio SMRT sequencing HDF5 files in the ENA. 
+This contains lists for the PacBio SMRT sequencing HDF5 files in the ENA. 
 
 The columns in the file are: 
 
@@ -19,11 +19,11 @@ The columns in the file are:
 7.  SUBMISSION ID, This is the ENA submission id for the file.
 8.  SUBMISSION DATE, This is the date on which the file was submitted.
 9.  SAMPLE ID, This is the ENA sample identifier for the file.
-10. SAMPLE NAME, This is the coriell sample name for the file.
-11. POPULATION, This is the population of the sample. For a full list of populations please see.
+10. SAMPLE NAME, This is the Coriell sample name for the file.
+11. POPULATION, This is the population of the sample. For a full list of populations please see http://www.internationalgenome.org/data-portal/population.
 12. EXPERIMENT ID, This is the ENA experiment accession for the file.
 13. INSTRUMENT PLATFORM, This is the sequencing platform the sample was sequenced using.
-14. INSTRUMENT MODEL, THis is the model of sequencing machine used.
+14. INSTRUMENT MODEL, This is the model of sequencing machine used.
 15. LIBRARY NAME, This is the submitter library name.
 16. RUN NAME, This is the submission run name.
 17. LIBRARY LAYOUT, This is the submitter library layout.
@@ -44,17 +44,17 @@ The columns in the file are:
 7.  SUBMISSION ID, This is the ENA submission id for the file.
 8.  SUBMISSION DATE, This is the date on which the file was submitted.
 9.  SAMPLE ID, This is the ENA sample identifier for the file.
-10. SAMPLE NAME, This is the coriell sample name for the file.
+10. SAMPLE NAME, This is the Coriell sample name for the file.
 11. POPULATION, This is the population of the sample. For a full list of populations please see.
 12. EXPERIMENT ID, This is the ENA experiment accession for the file.
 13. INSTRUMENT PLATFORM, This is the sequencing platform the sample was sequenced using.
-14. INSTRUMENT MODEL, THis is the model of sequencing machine used.
+14. INSTRUMENT MODEL, This is the model of sequencing machine used.
 15. LIBRARY NAME, This is the submitter library name.
 16. RUN NAME, This is the submission run name.
 17. LIBRARY LAYOUT, This is the submitter library layout.
 18. PAIRED_FASTQ, This is the other fastq file for this paired end run
-19. ARCHIVE_READ_COUNT, The number of reads the ENA states is in the file
-20. ARCHIVE_BASE_COUNT, The number of bases the ENA states is in the file
+19. READ_COUNT, The number of reads the ENA states is in the file
+20. BASE_COUNT, The number of bases the ENA states is in the file
 
  
 ##Download instructions
@@ -79,6 +79,8 @@ The consortium has decided to align to the full GRCh38 reference genome include 
 
 ##Data Reuse policy
 
-The data produced by the Human Genome Structural Variation Consortium is released early in line with the Toronto Workshop pre publication data release guidelines. Our data reuse policy is described in (README_hgsvc_datareuse_statement.md)[https://github.com/igsr/1000Genomes_data_indexes/blob/master/data_collections/hgsv_sv_discovery/README_hgsvc_datareuse_statement.md].
+The data produced by the Human Genome Structural Variation Consortium is released early in line with the Toronto Workshop pre-publication data release guidelines. Our data reuse policy is described in (README_hgsvc_datareuse_statement.md)[https://github.com/igsr/1000Genomes_data_indexes/blob/master/data_collections/hgsv_sv_discovery/README_hgsvc_datareuse_statement.md].
+
+Please cite [Chaisson et al. 2019 Nature Communications](https://www.nature.com/articles/s41467-018-08148-z) if you use this data.
 
 Please email info@1000genomes.org to with any questions about either the index files or the data reuse policy.
